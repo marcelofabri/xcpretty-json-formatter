@@ -1,0 +1,609 @@
+Build settings from command line:
+	SDKROOT = iphonesimulator8.1
+
+=== BUILD TARGET Pods-CocoaLumberjack OF PROJECT Pods WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET Pods-FXKeychain OF PROJECT Pods WITH CONFIGURATION Debug ===
+Check dependencies
+
+=== BUILD TARGET Pods-AFNetworking OF PROJECT Pods WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET Pods-Amplitude-iOS OF PROJECT Pods WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET Pods-LGBluetooth OF PROJECT Pods WITH CONFIGURATION Debug ===
+Check dependencies
+
+=== BUILD TARGET Pods-NSJSONSerialization-NSNullRemoval OF PROJECT Pods WITH CONFIGURATION Debug ===
+Check dependencies
+
+=== BUILD TARGET Pods-SHSProtoBuf OF PROJECT Pods WITH CONFIGURATION Debug ===
+Check dependencies
+
+=== BUILD TARGET Pods-YapDatabase OF PROJECT Pods WITH CONFIGURATION Debug ===
+Check dependencies
+
+=== BUILD TARGET Pods-Tests-Kiwi OF PROJECT Pods WITH CONFIGURATION Debug ===
+Check dependencies
+
+=== BUILD TARGET Pods-Tests-Nocilla OF PROJECT Pods WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET Pods-SampleProject OF PROJECT Pods WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET Pods OF PROJECT Pods WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET SampleProject OF PROJECT SampleProject WITH CONFIGURATION Debug ===
+Check dependencies
+warning: Capabilities that require entitlements from "SampleProject/SampleProject.entitlements" may not function in the Simulator because none of the valid provisioning profiles allowed the specified entitlements: com.apple.security.application-groups, keychain-access-groups.
+
+PhaseScriptExecution Check\ Pods\ Manifest.lock /opt/Xcode/DerivedData/SampleProject-fffumrorrfhhkpgupnvlzctyfpiu/Build/Intermediates/SampleProject.build/Debug-iphonesimulator/SampleProject.build/Script-D18FF329A03342899A990024.sh
+	cd /opt/Code/SampleProject/Example
+	/bin/sh -c /opt/Xcode/DerivedData/SampleProject-fffumrorrfhhkpgupnvlzctyfpiu/Build/Intermediates/SampleProject.build/Debug-iphonesimulator/SampleProject.build/Script-D18FF329A03342899A990024.sh
+
+PhaseScriptExecution Copy\ Pods\ Resources /opt/Xcode/DerivedData/SampleProject-fffumrorrfhhkpgupnvlzctyfpiu/Build/Intermediates/SampleProject.build/Debug-iphonesimulator/SampleProject.build/Script-D3D575F0BE0B4D6BA2A59B93.sh
+	cd /opt/Code/SampleProject/Example
+	/bin/sh -c /opt/Xcode/DerivedData/SampleProject-fffumrorrfhhkpgupnvlzctyfpiu/Build/Intermediates/SampleProject.build/Debug-iphonesimulator/SampleProject.build/Script-D3D575F0BE0B4D6BA2A59B93.sh
+building file list ... done
+
+sent 29 bytes  received 20 bytes  98.00 bytes/sec
+total size is 0  speedup is 0.00
+/* com.apple.actool.compilation-results */
+
+
+=== BUILD TARGET Pods-Tests OF PROJECT Pods WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET Tests OF PROJECT SampleProject WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+PhaseScriptExecution Check\ Pods\ Manifest.lock /opt/Xcode/DerivedData/SampleProject-fffumrorrfhhkpgupnvlzctyfpiu/Build/Intermediates/SampleProject.build/Debug-iphonesimulator/Tests.build/Script-F59D15D8C16B46BEBDEA3249.sh
+	cd /opt/Code/SampleProject/Example
+	/bin/sh -c /opt/Xcode/DerivedData/SampleProject-fffumrorrfhhkpgupnvlzctyfpiu/Build/Intermediates/SampleProject.build/Debug-iphonesimulator/Tests.build/Script-F59D15D8C16B46BEBDEA3249.sh
+
+PhaseScriptExecution Copy\ Pods\ Resources /opt/Xcode/DerivedData/SampleProject-fffumrorrfhhkpgupnvlzctyfpiu/Build/Intermediates/SampleProject.build/Debug-iphonesimulator/Tests.build/Script-3CDE065A6A6849B1B9986C77.sh
+	cd /opt/Code/SampleProject/Example
+	/bin/sh -c /opt/Xcode/DerivedData/SampleProject-fffumrorrfhhkpgupnvlzctyfpiu/Build/Intermediates/SampleProject.build/Debug-iphonesimulator/Tests.build/Script-3CDE065A6A6849B1B9986C77.sh
+building file list ... done
+
+sent 29 bytes  received 20 bytes  98.00 bytes/sec
+total size is 0  speedup is 0.00
+/* com.apple.actool.compilation-results */
+
+
+Test Suite 'All tests' started at 2014-11-18 01:15:48 +0000
+Test Suite 'Tests.xctest' started at 2014-11-18 01:15:48 +0000
+Test Suite 'XYZAPISignalsSpec' started at 2014-11-18 01:15:48 +0000
+Test Case '-[XYZAPISignalsSpec XYZAPISignals_signalsWithCompletion_MakesAGETRequest]' started.
+2014-11-17 17:15:49.157 SampleProject[95307:60b] + 'XYZAPISignals, +signalsWithCompletion:, makes a GET request' [PASSED]
+Test Case '-[XYZAPISignalsSpec XYZAPISignals_signalsWithCompletion_MakesAGETRequest]' passed (0.198 seconds).
+Test Case '-[XYZAPISignalsSpec XYZAPISignals_signalsWithCompletion_TheAPICallSucceeds_InvokesTheCompletionBlock]' started.
+2014-11-17 17:15:49.261 SampleProject[95307:60b] + 'XYZAPISignals, +signalsWithCompletion:, the API call succeeds, invokes the completion block' [PASSED]
+Test Case '-[XYZAPISignalsSpec XYZAPISignals_signalsWithCompletion_TheAPICallSucceeds_InvokesTheCompletionBlock]' passed (0.103 seconds).
+Test Case '-[XYZAPISignalsSpec XYZAPISignals_signalsWithCompletion_TheAPICallSucceeds_FormatsSignalDataAsAnArray]' started.
+2014-11-17 17:15:49.364 SampleProject[95307:60b] + 'XYZAPISignals, +signalsWithCompletion:, the API call succeeds, formats signal data as an array' [PASSED]
+Test Case '-[XYZAPISignalsSpec XYZAPISignals_signalsWithCompletion_TheAPICallSucceeds_FormatsSignalDataAsAnArray]' passed (0.103 seconds).
+Test Case '-[XYZAPISignalsSpec XYZAPISignals_signalsWithCompletion_TheAPICallSucceeds_PreservesTheOrderingOfSignals]' started.
+2014-11-17 17:15:49.568 SampleProject[95307:60b] + 'XYZAPISignals, +signalsWithCompletion:, the API call succeeds, preserves the ordering of signals' [PASSED]
+Test Case '-[XYZAPISignalsSpec XYZAPISignals_signalsWithCompletion_TheAPICallSucceeds_PreservesTheOrderingOfSignals]' passed (0.204 seconds).
+Test Case '-[XYZAPISignalsSpec XYZAPISignals_signalsWithCompletion_TheAPICallSucceeds_SetsRepeatDays]' started.
+2014-11-17 17:15:49.671 SampleProject[95307:60b] + 'XYZAPISignals, +signalsWithCompletion:, the API call succeeds, sets repeat days' [PASSED]
+Test Case '-[XYZAPISignalsSpec XYZAPISignals_signalsWithCompletion_TheAPICallSucceeds_SetsRepeatDays]' passed (0.103 seconds).
+Test Case '-[XYZAPISignalsSpec XYZAPISignals_signalsWithCompletion_TheAPICallSucceeds_SetsEditable]' started.
+2014-11-17 17:15:49.875 SampleProject[95307:60b] + 'XYZAPISignals, +signalsWithCompletion:, the API call succeeds, sets editable' [PASSED]
+Test Case '-[XYZAPISignalsSpec XYZAPISignals_signalsWithCompletion_TheAPICallSucceeds_SetsEditable]' passed (0.205 seconds).
+Test Case '-[XYZAPISignalsSpec XYZAPISignals_signalsWithCompletion_TheAPICallFails_InvokesTheCompletionBlock]' started.
+2014-11-17 17:15:49.978 SampleProject[95307:60b] + 'XYZAPISignals, +signalsWithCompletion:, the API call fails, invokes the completion block' [PASSED]
+Test Case '-[XYZAPISignalsSpec XYZAPISignals_signalsWithCompletion_TheAPICallFails_InvokesTheCompletionBlock]' passed (0.103 seconds).
+Test Case '-[XYZAPISignalsSpec XYZAPISignals_signalsWithCompletion_TheAPICallFails_SetsTheCompletionBlockErrorParameter]' started.
+2014-11-17 17:15:50.081 SampleProject[95307:60b] + 'XYZAPISignals, +signalsWithCompletion:, the API call fails, sets the completion block error parameter' [PASSED]
+Test Case '-[XYZAPISignalsSpec XYZAPISignals_signalsWithCompletion_TheAPICallFails_SetsTheCompletionBlockErrorParameter]' passed (0.103 seconds).
+Test Case '-[XYZAPISignalsSpec XYZAPISignals_setSignalswithCompletion_MakesAPOSTRequest]' started.
+2014-11-17 17:15:50.083 SampleProject[95307:60b] + 'XYZAPISignals, +setSignals:withCompletion:, makes a POST request' [PASSED]
+Test Case '-[XYZAPISignalsSpec XYZAPISignals_setSignalswithCompletion_MakesAPOSTRequest]' passed (0.001 seconds).
+Test Case '-[XYZAPISignalsSpec XYZAPISignals_setSignalswithCompletion_TheAPICallSucceeds_InvokesTheCompletionBlock]' started.
+2014-11-17 17:15:50.186 SampleProject[95307:60b] + 'XYZAPISignals, +setSignals:withCompletion:, the API call succeeds, invokes the completion block' [PASSED]
+Test Case '-[XYZAPISignalsSpec XYZAPISignals_setSignalswithCompletion_TheAPICallSucceeds_InvokesTheCompletionBlock]' passed (0.103 seconds).
+Test Case '-[XYZAPISignalsSpec XYZAPISignals_setSignalswithCompletion_TheAPICallFails_InvokesTheCompletionBlock]' started.
+2014-11-17 17:15:50.289 SampleProject[95307:60b] + 'XYZAPISignals, +setSignals:withCompletion:, the API call fails, invokes the completion block' [PASSED]
+Test Case '-[XYZAPISignalsSpec XYZAPISignals_setSignalswithCompletion_TheAPICallFails_InvokesTheCompletionBlock]' passed (0.103 seconds).
+Test Case '-[XYZAPISignalsSpec XYZAPISignals_setSignalswithCompletion_TheAPICallFails_SetsTheCompletionBlockErrorParameter]' started.
+2014-11-17 17:15:50.392 SampleProject[95307:60b] + 'XYZAPISignals, +setSignals:withCompletion:, the API call fails, sets the completion block error parameter' [PASSED]
+Test Case '-[XYZAPISignalsSpec XYZAPISignals_setSignalswithCompletion_TheAPICallFails_SetsTheCompletionBlockErrorParameter]' passed (0.104 seconds).
+Test Suite 'XYZAPISignalsSpec' passed at 2014-11-18 01:15:50 +0000.
+	 Executed 12 tests, with 0 failures (0 unexpected) in 1.433 (1.434) seconds
+Test Suite 'XYZAPIClientSpec' started at 2014-11-18 01:15:50 +0000
+Test Case '-[XYZAPIClientSpec XYZAPIClient_urlEncode_UrlEncodingEncodesSpaces]' started.
+2014-11-17 17:15:50.397 SampleProject[95307:60b] + 'XYZAPIClient, +urlEncode:, url encoding encodes spaces' [PASSED]
+Test Case '-[XYZAPIClientSpec XYZAPIClient_urlEncode_UrlEncodingEncodesSpaces]' passed (0.004 seconds).
+Test Case '-[XYZAPIClientSpec XYZAPIClient_urlEncode_UrlEncodingDoesNotDestroyAnd]' started.
+2014-11-17 17:15:50.399 SampleProject[95307:60b] + 'XYZAPIClient, +urlEncode:, url encoding does not destroy ? and &' [PASSED]
+Test Case '-[XYZAPIClientSpec XYZAPIClient_urlEncode_UrlEncodingDoesNotDestroyAnd]' passed (0.001 seconds).
+Test Case '-[XYZAPIClientSpec XYZAPIClient_MakingHTTPRequests_GETparameterscompletion_SendsAGETRequest]' started.
+2014-11-17 17:15:50.400 SampleProject[95307:60b] + 'XYZAPIClient, Making HTTP requests, GET:parameters:completion:, sends a GET request' [PASSED]
+Test Case '-[XYZAPIClientSpec XYZAPIClient_MakingHTTPRequests_GETparameterscompletion_SendsAGETRequest]' passed (0.001 seconds).
+Test Case '-[XYZAPIClientSpec XYZAPIClient_MakingHTTPRequests_GETparameterscompletion_InvokesTheCompletionBlockOnSuccess]' started.
+2014-11-17 17:15:50.503 SampleProject[95307:60b] + 'XYZAPIClient, Making HTTP requests, GET:parameters:completion:, invokes the completion block on success' [PASSED]
+Test Case '-[XYZAPIClientSpec XYZAPIClient_MakingHTTPRequests_GETparameterscompletion_InvokesTheCompletionBlockOnSuccess]' passed (0.103 seconds).
+Test Case '-[XYZAPIClientSpec XYZAPIClient_MakingHTTPRequests_GETparameterscompletion_InvokesTheCompletionBlockOnFailure]' started.
+2014-11-17 17:15:50.606 SampleProject[95307:60b] + 'XYZAPIClient, Making HTTP requests, GET:parameters:completion:, invokes the completion block on failure' [PASSED]
+Test Case '-[XYZAPIClientSpec XYZAPIClient_MakingHTTPRequests_GETparameterscompletion_InvokesTheCompletionBlockOnFailure]' passed (0.103 seconds).
+Test Case '-[XYZAPIClientSpec XYZAPIClient_MakingHTTPRequests_POSTparameterscompletion_SendsAPOSTRequest]' started.
+2014-11-17 17:15:50.608 SampleProject[95307:60b] + 'XYZAPIClient, Making HTTP requests, POST:parameters:completion:, sends a POST request' [PASSED]
+Test Case '-[XYZAPIClientSpec XYZAPIClient_MakingHTTPRequests_POSTparameterscompletion_SendsAPOSTRequest]' passed (0.001 seconds).
+Test Case '-[XYZAPIClientSpec XYZAPIClient_MakingHTTPRequests_POSTparameterscompletion_InvokesTheCompletionBlockOnSuccess]' started.
+2014-11-17 17:15:50.710 SampleProject[95307:60b] + 'XYZAPIClient, Making HTTP requests, POST:parameters:completion:, invokes the completion block on success' [PASSED]
+Test Case '-[XYZAPIClientSpec XYZAPIClient_MakingHTTPRequests_POSTparameterscompletion_InvokesTheCompletionBlockOnSuccess]' passed (0.103 seconds).
+Test Case '-[XYZAPIClientSpec XYZAPIClient_MakingHTTPRequests_POSTparameterscompletion_InvokesTheCompletionBlockOnFailure]' started.
+2014-11-17 17:15:50.813 SampleProject[95307:60b] + 'XYZAPIClient, Making HTTP requests, POST:parameters:completion:, invokes the completion block on failure' [PASSED]
+Test Case '-[XYZAPIClientSpec XYZAPIClient_MakingHTTPRequests_POSTparameterscompletion_InvokesTheCompletionBlockOnFailure]' passed (0.103 seconds).
+Test Case '-[XYZAPIClientSpec XYZAPIClient_MakingHTTPRequests_PUTparameterscompletion_SendsAPUTRequest]' started.
+2014-11-17 17:15:50.815 SampleProject[95307:60b] + 'XYZAPIClient, Making HTTP requests, PUT:parameters:completion:, sends a PUT request' [PASSED]
+Test Case '-[XYZAPIClientSpec XYZAPIClient_MakingHTTPRequests_PUTparameterscompletion_SendsAPUTRequest]' passed (0.001 seconds).
+Test Case '-[XYZAPIClientSpec XYZAPIClient_MakingHTTPRequests_PUTparameterscompletion_InvokesTheCompletionBlockOnSuccess]' started.
+2014-11-17 17:15:50.918 SampleProject[95307:60b] + 'XYZAPIClient, Making HTTP requests, PUT:parameters:completion:, invokes the completion block on success' [PASSED]
+Test Case '-[XYZAPIClientSpec XYZAPIClient_MakingHTTPRequests_PUTparameterscompletion_InvokesTheCompletionBlockOnSuccess]' passed (0.103 seconds).
+Test Case '-[XYZAPIClientSpec XYZAPIClient_MakingHTTPRequests_PUTparameterscompletion_InvokesTheCompletionBlockOnFailure]' started.
+2014-11-17 17:15:51.021 SampleProject[95307:60b] + 'XYZAPIClient, Making HTTP requests, PUT:parameters:completion:, invokes the completion block on failure' [PASSED]
+Test Case '-[XYZAPIClientSpec XYZAPIClient_MakingHTTPRequests_PUTparameterscompletion_InvokesTheCompletionBlockOnFailure]' passed (0.103 seconds).
+Test Case '-[XYZAPIClientSpec XYZAPIClient_MakingHTTPRequests_PATCHparameterscompletion_SendsAPATCHRequest]' started.
+2014-11-17 17:15:51.023 SampleProject[95307:60b] + 'XYZAPIClient, Making HTTP requests, PATCH:parameters:completion:, sends a PATCH request' [PASSED]
+Test Case '-[XYZAPIClientSpec XYZAPIClient_MakingHTTPRequests_PATCHparameterscompletion_SendsAPATCHRequest]' passed (0.001 seconds).
+Test Case '-[XYZAPIClientSpec XYZAPIClient_MakingHTTPRequests_PATCHparameterscompletion_InvokesTheCompletionBlockOnSuccess]' started.
+2014-11-17 17:15:51.126 SampleProject[95307:60b] + 'XYZAPIClient, Making HTTP requests, PATCH:parameters:completion:, invokes the completion block on success' [PASSED]
+Test Case '-[XYZAPIClientSpec XYZAPIClient_MakingHTTPRequests_PATCHparameterscompletion_InvokesTheCompletionBlockOnSuccess]' passed (0.103 seconds).
+Test Case '-[XYZAPIClientSpec XYZAPIClient_MakingHTTPRequests_PATCHparameterscompletion_InvokesTheCompletionBlockOnFailure]' started.
+2014-11-17 17:15:51.229 SampleProject[95307:60b] + 'XYZAPIClient, Making HTTP requests, PATCH:parameters:completion:, invokes the completion block on failure' [PASSED]
+Test Case '-[XYZAPIClientSpec XYZAPIClient_MakingHTTPRequests_PATCHparameterscompletion_InvokesTheCompletionBlockOnFailure]' passed (0.103 seconds).
+Test Case '-[XYZAPIClientSpec XYZAPIClient_MakingHTTPRequests_DELETEparameterscompletion_SendsADELETERequest]' started.
+2014-11-17 17:15:51.230 SampleProject[95307:60b] + 'XYZAPIClient, Making HTTP requests, DELETE:parameters:completion:, sends a DELETE request' [PASSED]
+Test Case '-[XYZAPIClientSpec XYZAPIClient_MakingHTTPRequests_DELETEparameterscompletion_SendsADELETERequest]' passed (0.001 seconds).
+Test Case '-[XYZAPIClientSpec XYZAPIClient_MakingHTTPRequests_DELETEparameterscompletion_InvokesTheCompletionBlockOnSuccess]' started.
+2014-11-17 17:15:51.333 SampleProject[95307:60b] + 'XYZAPIClient, Making HTTP requests, DELETE:parameters:completion:, invokes the completion block on success' [PASSED]
+Test Case '-[XYZAPIClientSpec XYZAPIClient_MakingHTTPRequests_DELETEparameterscompletion_InvokesTheCompletionBlockOnSuccess]' passed (0.103 seconds).
+Test Case '-[XYZAPIClientSpec XYZAPIClient_MakingHTTPRequests_DELETEparameterscompletion_InvokesTheCompletionBlockOnFailure]' started.
+2014-11-17 17:15:51.436 SampleProject[95307:60b] + 'XYZAPIClient, Making HTTP requests, DELETE:parameters:completion:, invokes the completion block on failure' [PASSED]
+Test Case '-[XYZAPIClientSpec XYZAPIClient_MakingHTTPRequests_DELETEparameterscompletion_InvokesTheCompletionBlockOnFailure]' passed (0.103 seconds).
+Test Case '-[XYZAPIClientSpec XYZAPIClient_NSNullValuesAreRetrievedFromAPIRequests_RemovesNSNullValuesAndKeys]' started.
+2014-11-17 17:15:51.438 SampleProject[95307:60b] + 'XYZAPIClient, NSNull values are retrieved from API requests, removes NSNull values and keys' [PASSED]
+Test Case '-[XYZAPIClientSpec XYZAPIClient_NSNullValuesAreRetrievedFromAPIRequests_RemovesNSNullValuesAndKeys]' passed (0.002 seconds).
+Test Case '-[XYZAPIClientSpec XYZAPIClient_NSNullValuesAreRetrievedFromAPIRequests_RemovesNestedNSNullValuesAndKeys]' started.
+2014-11-17 17:15:51.440 SampleProject[95307:60b] + 'XYZAPIClient, NSNull values are retrieved from API requests, removes nested NSNull values and keys' [PASSED]
+Test Case '-[XYZAPIClientSpec XYZAPIClient_NSNullValuesAreRetrievedFromAPIRequests_RemovesNestedNSNullValuesAndKeys]' passed (0.002 seconds).
+Test Case '-[XYZAPIClientSpec XYZAPIClient_NSNullValuesAreRetrievedFromAPIRequests_RemovesNSNullValuesFromArrays]' started.
+2014-11-17 17:15:51.441 SampleProject[95307:60b] + 'XYZAPIClient, NSNull values are retrieved from API requests, removes NSNull values from arrays' [PASSED]
+Test Case '-[XYZAPIClientSpec XYZAPIClient_NSNullValuesAreRetrievedFromAPIRequests_RemovesNSNullValuesFromArrays]' passed (0.002 seconds).
+Test Suite 'XYZAPIClientSpec' passed at 2014-11-18 01:15:51 +0000.
+	 Executed 20 tests, with 0 failures (0 unexpected) in 1.048 (1.049) seconds
+Test Suite 'XYZAPIDeviceSpec' started at 2014-11-18 01:15:51 +0000
+Test Case '-[XYZAPIDeviceSpec XYZAPIDevice_GetPairedDevices_ShouldReturnEmptyArray]' started.
+2014-11-17 17:15:51.557 SampleProject[95307:60b] + 'XYZAPIDevice, + getPairedDevices, should return empty array' [PASSED]
+Test Case '-[XYZAPIDeviceSpec XYZAPIDevice_GetPairedDevices_ShouldReturnEmptyArray]' passed (0.116 seconds).
+Test Case '-[XYZAPIDeviceSpec XYZAPIDevice_DevicesFromRawResponse_ShouldReturnAnEmptyArray]' started.
+2014-11-17 17:15:51.560 SampleProject[95307:60b] + 'XYZAPIDevice, + devicesFromRawResponse, should return an empty array' [PASSED]
+Test Case '-[XYZAPIDeviceSpec XYZAPIDevice_DevicesFromRawResponse_ShouldReturnAnEmptyArray]' passed (0.001 seconds).
+Test Case '-[XYZAPIDeviceSpec XYZAPIDevice_DevicesFromRawResponse_ShouldReturn1XYZDeviceObject]' started.
+2014-11-17 17:15:51.561 SampleProject[95307:60b] + 'XYZAPIDevice, + devicesFromRawResponse, should return 1 XYZDevice object' [PASSED]
+Test Case '-[XYZAPIDeviceSpec XYZAPIDevice_DevicesFromRawResponse_ShouldReturn1XYZDeviceObject]' passed (0.001 seconds).
+Test Case '-[XYZAPIDeviceSpec XYZAPIDevice_DevicesFromRawResponse_Last_updatedAndFirmwareVersionShouldBeSet]' started.
+2014-11-17 17:15:51.562 SampleProject[95307:60b] + 'XYZAPIDevice, + devicesFromRawResponse, last_updated and firmware version should be set' [PASSED]
+Test Case '-[XYZAPIDeviceSpec XYZAPIDevice_DevicesFromRawResponse_Last_updatedAndFirmwareVersionShouldBeSet]' passed (0.001 seconds).
+Test Case '-[XYZAPIDeviceSpec XYZAPIDevice_UnregisterDevices_unregisterAccessorycompletion_ShouldReturnErrorWithInvalidArgumentError]' started.
+2014-11-17 17:15:51.767 SampleProject[95307:60b] + 'XYZAPIDevice, unregister devices, +unregisterAccessory:completion, should return error with invalid argument error' [PASSED]
+Test Case '-[XYZAPIDeviceSpec XYZAPIDevice_UnregisterDevices_unregisterAccessorycompletion_ShouldReturnErrorWithInvalidArgumentError]' passed (0.205 seconds).
+Test Case '-[XYZAPIDeviceSpec XYZAPIDevice_UnregisterDevices_unregisterAccessorycompletion_ShouldReturnWithNoError]' started.
+2014-11-17 17:15:51.871 SampleProject[95307:60b] + 'XYZAPIDevice, unregister devices, +unregisterAccessory:completion, should return with no error' [PASSED]
+Test Case '-[XYZAPIDeviceSpec XYZAPIDevice_UnregisterDevices_unregisterAccessorycompletion_ShouldReturnWithNoError]' passed (0.103 seconds).
+Test Case '-[XYZAPIDeviceSpec XYZAPIDevice_UnregisterDevices_unregisterHardwarecompletion_ShouldReturnErrorWithInvalidArgumentError]' started.
+2014-11-17 17:15:52.075 SampleProject[95307:60b] + 'XYZAPIDevice, unregister devices, +unregisterHardware:completion, should return error with invalid argument error' [PASSED]
+Test Case '-[XYZAPIDeviceSpec XYZAPIDevice_UnregisterDevices_unregisterHardwarecompletion_ShouldReturnErrorWithInvalidArgumentError]' passed (0.204 seconds).
+Test Case '-[XYZAPIDeviceSpec XYZAPIDevice_UnregisterDevices_unregisterHardwarecompletion_ShouldReturnWithNoError]' started.
+2014-11-17 17:15:52.178 SampleProject[95307:60b] + 'XYZAPIDevice, unregister devices, +unregisterHardware:completion, should return with no error' [PASSED]
+Test Case '-[XYZAPIDeviceSpec XYZAPIDevice_UnregisterDevices_unregisterHardwarecompletion_ShouldReturnWithNoError]' passed (0.104 seconds).
+Test Suite 'XYZAPIDeviceSpec' passed at 2014-11-18 01:15:52 +0000.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.737 (0.737) seconds
+Test Suite 'XYZAPIInsightSpec' started at 2014-11-18 01:15:52 +0000
+Test Case '-[XYZAPIInsightSpec XYZAPIInsight_insightsFromResponse_ReturnsNil_IfResponseIsNotAnArray]' started.
+2014-11-17 17:15:52.181 SampleProject[95307:60b] + 'XYZAPIInsight, +insightsFromResponse:, returns nil, if response is not an array' [PASSED]
+Test Case '-[XYZAPIInsightSpec XYZAPIInsight_insightsFromResponse_ReturnsNil_IfResponseIsNotAnArray]' passed (0.001 seconds).
+Test Case '-[XYZAPIInsightSpec XYZAPIInsight_insightsFromResponse_ReturnsAnEmptyArray_IfResponseIsAnEmptyArray]' started.
+2014-11-17 17:15:52.182 SampleProject[95307:60b] + 'XYZAPIInsight, +insightsFromResponse:, returns an empty array, if response is an empty array' [PASSED]
+Test Case '-[XYZAPIInsightSpec XYZAPIInsight_insightsFromResponse_ReturnsAnEmptyArray_IfResponseIsAnEmptyArray]' passed (0.001 seconds).
+Test Case '-[XYZAPIInsightSpec XYZAPIInsight_insightsFromResponse_ReturnsAnArrayWithAXYZInsightObject_WithProperResponse]' started.
+2014-11-17 17:15:52.184 SampleProject[95307:60b] + 'XYZAPIInsight, +insightsFromResponse:, returns an array with a XYZInsight object, with proper response' [PASSED]
+Test Case '-[XYZAPIInsightSpec XYZAPIInsight_insightsFromResponse_ReturnsAnArrayWithAXYZInsightObject_WithProperResponse]' passed (0.001 seconds).
+Test Case '-[XYZAPIInsightSpec XYZAPIInsight_getInsights_CallbackShouldBeMade]' started.
+2014-11-17 17:15:52.287 SampleProject[95307:60b] + 'XYZAPIInsight, +getInsights:, callback should be made' [PASSED]
+Test Case '-[XYZAPIInsightSpec XYZAPIInsight_getInsights_CallbackShouldBeMade]' passed (0.105 seconds).
+Test Suite 'XYZAPIInsightSpec' passed at 2014-11-18 01:15:52 +0000.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.108 (0.108) seconds
+Test Suite 'XYZAPINotificationSpec' started at 2014-11-18 01:15:52 +0000
+Test Case '-[XYZAPINotificationSpec XYZAPINotification_RegisterForRemoteNotificationsWithTokenDatacompletion_SendsAPOSTRequest]' started.
+2014-11-17 17:15:52.290 SampleProject[95307:60b] + 'XYZAPINotification, registerForRemoteNotificationsWithTokenData:completion:, sends a POST request' [PASSED]
+Test Case '-[XYZAPINotificationSpec XYZAPINotification_RegisterForRemoteNotificationsWithTokenDatacompletion_SendsAPOSTRequest]' passed (0.002 seconds).
+Test Case '-[XYZAPINotificationSpec XYZAPINotification_RegisterForRemoteNotificationsWithTokenDatacompletion_InvokesTheCompletionBlock]' started.
+2014-11-17 17:15:52.393 SampleProject[95307:60b] + 'XYZAPINotification, registerForRemoteNotificationsWithTokenData:completion:, invokes the completion block' [PASSED]
+Test Case '-[XYZAPINotificationSpec XYZAPINotification_RegisterForRemoteNotificationsWithTokenDatacompletion_InvokesTheCompletionBlock]' passed (0.103 seconds).
+Test Case '-[XYZAPINotificationSpec XYZAPINotification_RegisterForRemoteNotificationsWithTokenDatacompletion_IncludesTheOSInTheRequest]' started.
+2014-11-17 17:15:52.496 SampleProject[95307:60b] + 'XYZAPINotification, registerForRemoteNotificationsWithTokenData:completion:, includes the OS in the request' [PASSED]
+Test Case '-[XYZAPINotificationSpec XYZAPINotification_RegisterForRemoteNotificationsWithTokenDatacompletion_IncludesTheOSInTheRequest]' passed (0.103 seconds).
+Test Case '-[XYZAPINotificationSpec XYZAPINotification_RegisterForRemoteNotificationsWithTokenDatacompletion_IncludesTheOSVersionInTheRequest]' started.
+2014-11-17 17:15:52.599 SampleProject[95307:60b] + 'XYZAPINotification, registerForRemoteNotificationsWithTokenData:completion:, includes the OS version in the request' [PASSED]
+Test Case '-[XYZAPINotificationSpec XYZAPINotification_RegisterForRemoteNotificationsWithTokenDatacompletion_IncludesTheOSVersionInTheRequest]' passed (0.103 seconds).
+Test Case '-[XYZAPINotificationSpec XYZAPINotification_RegisterForRemoteNotificationsWithTokenDatacompletion_IncludesTheAppVersionInTheRequest]' started.
+2014-11-17 17:15:52.702 SampleProject[95307:60b] + 'XYZAPINotification, registerForRemoteNotificationsWithTokenData:completion:, includes the app version in the request' [PASSED]
+Test Case '-[XYZAPINotificationSpec XYZAPINotification_RegisterForRemoteNotificationsWithTokenDatacompletion_IncludesTheAppVersionInTheRequest]' passed (0.103 seconds).
+Test Case '-[XYZAPINotificationSpec XYZAPINotification_RegisterForRemoteNotificationsWithTokenDatacompletion_IncludesTheTokenInTheRequest]' started.
+2014-11-17 17:15:52.805 SampleProject[95307:60b] + 'XYZAPINotification, registerForRemoteNotificationsWithTokenData:completion:, includes the token in the request' [PASSED]
+Test Case '-[XYZAPINotificationSpec XYZAPINotification_RegisterForRemoteNotificationsWithTokenDatacompletion_IncludesTheTokenInTheRequest]' passed (0.104 seconds).
+Test Suite 'XYZAPINotificationSpec' passed at 2014-11-18 01:15:52 +0000.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.518 (0.518) seconds
+Test Suite 'XYZAPIQuestionsSpec' started at 2014-11-18 01:15:52 +0000
+Test Case '-[XYZAPIQuestionsSpec XYZAPIQuestionsSpec_questionFromDict_ProperQuestionDictShouldCreateAProperXYZQuestionObject]' started.
+2014-11-17 17:15:52.808 SampleProject[95307:60b] + 'XYZAPIQuestionsSpec, +questionFromDict:, proper question dict should create a proper XYZQuestion object' [PASSED]
+Test Case '-[XYZAPIQuestionsSpec XYZAPIQuestionsSpec_questionFromDict_ProperQuestionDictShouldCreateAProperXYZQuestionObject]' passed (0.002 seconds).
+Test Case '-[XYZAPIQuestionsSpec XYZAPIQuestionsSpec_answersFromReponseArray_AnArrayOfChoicesFromTheServerShouldReturnAnArrayOfXYZAnswerObjects]' started.
+2014-11-17 17:15:52.810 SampleProject[95307:60b] + 'XYZAPIQuestionsSpec, +answersFromReponseArray:, an array of choices from the server should return an array of XYZAnswer objects' [PASSED]
+Test Case '-[XYZAPIQuestionsSpec XYZAPIQuestionsSpec_answersFromReponseArray_AnArrayOfChoicesFromTheServerShouldReturnAnArrayOfXYZAnswerObjects]' passed (0.001 seconds).
+Test Case '-[XYZAPIQuestionsSpec XYZAPIQuestionsSpec_questionsFromResponse_AnArrayOfQuestionsFromServerShouldGenerateAnArrayOfXYZQuestionObjects]' started.
+2014-11-17 17:15:52.811 SampleProject[95307:60b] + 'XYZAPIQuestionsSpec, +questionsFromResponse:, an array of questions from server should generate an array of XYZQuestion objects' [PASSED]
+Test Case '-[XYZAPIQuestionsSpec XYZAPIQuestionsSpec_questionsFromResponse_AnArrayOfQuestionsFromServerShouldGenerateAnArrayOfXYZQuestionObjects]' passed (0.001 seconds).
+Test Case '-[XYZAPIQuestionsSpec XYZAPIQuestionsSpec_skipQuestioncompletion_ShouldCallbackWithAnErrorOfInvalidArgumentWithNoQuestionPassed]' started.
+2014-11-17 17:15:52.913 SampleProject[95307:60b] + 'XYZAPIQuestionsSpec, +skipQuestion:completion, should callback with an error of invalid argument with no question passed' [PASSED]
+Test Case '-[XYZAPIQuestionsSpec XYZAPIQuestionsSpec_skipQuestioncompletion_ShouldCallbackWithAnErrorOfInvalidArgumentWithNoQuestionPassed]' passed (0.103 seconds).
+Test Case '-[XYZAPIQuestionsSpec XYZAPIQuestionsSpec_skipQuestioncompletion_ShouldCallbackWithAnErrorOfInvalidArgumentWithNoQuestionIdSet]' started.
+2014-11-17 17:15:53.016 SampleProject[95307:60b] + 'XYZAPIQuestionsSpec, +skipQuestion:completion, should callback with an error of invalid argument with no question id set' [PASSED]
+Test Case '-[XYZAPIQuestionsSpec XYZAPIQuestionsSpec_skipQuestioncompletion_ShouldCallbackWithAnErrorOfInvalidArgumentWithNoQuestionIdSet]' passed (0.103 seconds).
+Test Suite 'XYZAPIQuestionsSpec' passed at 2014-11-18 01:15:53 +0000.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.210 (0.210) seconds
+Test Suite 'XYZAPITimeZoneSpec' started at 2014-11-18 01:15:53 +0000
+Test Case '-[XYZAPITimeZoneSpec XYZAPITimeZone_SetCurrentTimeZone_ShouldCallCompletionBlock]' started.
+2014-11-17 17:15:53.121 SampleProject[95307:60b] + 'XYZAPITimeZone, + setCurrentTimeZone, should call completion block' [PASSED]
+Test Case '-[XYZAPITimeZoneSpec XYZAPITimeZone_SetCurrentTimeZone_ShouldCallCompletionBlock]' passed (0.105 seconds).
+Test Suite 'XYZAPITimeZoneSpec' passed at 2014-11-18 01:15:53 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.105 (0.105) seconds
+Test Suite 'XYZAPIaccountSpec' started at 2014-11-18 01:15:53 +0000
+Test Case '-[XYZAPIaccountSpec XYZAPIAccount_accountFromResponse_IfResponseIsNotADictionary_ShouldBeNil]' started.
+2014-11-17 17:15:53.123 SampleProject[95307:60b] + 'XYZAPIAccount, +accountFromResponse:, if response is not a dictionary, should be nil' [PASSED]
+Test Case '-[XYZAPIaccountSpec XYZAPIAccount_accountFromResponse_IfResponseIsNotADictionary_ShouldBeNil]' passed (0.001 seconds).
+Test Case '-[XYZAPIaccountSpec XYZAPIAccount_accountFromResponse_IfResponseIsADictionary_AccountShouldBeInstantiated]' started.
+2014-11-17 17:15:53.125 SampleProject[95307:60b] + 'XYZAPIAccount, +accountFromResponse:, if response is a dictionary, account should be instantiated' [PASSED]
+Test Case '-[XYZAPIaccountSpec XYZAPIAccount_accountFromResponse_IfResponseIsADictionary_AccountShouldBeInstantiated]' passed (0.001 seconds).
+Test Case '-[XYZAPIaccountSpec XYZAPIAccount_accountFromResponse_IfResponseContainsNullValue_CorrespondingPropertyShouldBeNil]' started.
+2014-11-17 17:15:53.126 SampleProject[95307:60b] + 'XYZAPIAccount, +accountFromResponse:, if response contains null value, corresponding property should be nil' [PASSED]
+Test Case '-[XYZAPIaccountSpec XYZAPIAccount_accountFromResponse_IfResponseContainsNullValue_CorrespondingPropertyShouldBeNil]' passed (0.001 seconds).
+Test Case '-[XYZAPIaccountSpec XYZAPIAccount_accountFromResponse_BirthdateReturnedAsMillisShouldBeProperlyFormatted]' started.
+2014-11-17 17:15:53.127 SampleProject[95307:60b] + 'XYZAPIAccount, +accountFromResponse:, birthdate returned as millis should be properly formatted' [PASSED]
+Test Case '-[XYZAPIaccountSpec XYZAPIAccount_accountFromResponse_BirthdateReturnedAsMillisShouldBeProperlyFormatted]' passed (0.001 seconds).
+Test Case '-[XYZAPIaccountSpec XYZAPIAccount_dictionaryValue_MakeSureAccountIdIsNotSetInTheDictionarySinceItWillFailTheRequest]' started.
+2014-11-17 17:15:53.128 SampleProject[95307:60b] + 'XYZAPIAccount, +dictionaryValue:, make sure account id is not set in the dictionary since it will fail the request' [PASSED]
+Test Case '-[XYZAPIaccountSpec XYZAPIAccount_dictionaryValue_MakeSureAccountIdIsNotSetInTheDictionarySinceItWillFailTheRequest]' passed (0.001 seconds).
+Test Case '-[XYZAPIaccountSpec XYZAPIAccount_dictionaryValue_IfValueInAccountObjectIsNil_DictionaryDoesNotContainKey]' started.
+2014-11-17 17:15:53.129 SampleProject[95307:60b] + 'XYZAPIAccount, +dictionaryValue:, if value in account object is nil, dictionary does not contain key' [PASSED]
+Test Case '-[XYZAPIaccountSpec XYZAPIAccount_dictionaryValue_IfValueInAccountObjectIsNil_DictionaryDoesNotContainKey]' passed (0.001 seconds).
+Test Case '-[XYZAPIaccountSpec XYZAPIAccount_dictionaryValue_MakeSureGenderIsProperlyConverted]' started.
+2014-11-17 17:15:53.130 SampleProject[95307:60b] + 'XYZAPIAccount, +dictionaryValue:, make sure gender is properly converted' [PASSED]
+Test Case '-[XYZAPIaccountSpec XYZAPIAccount_dictionaryValue_MakeSureGenderIsProperlyConverted]' passed (0.001 seconds).
+Test Suite 'XYZAPIaccountSpec' passed at 2014-11-18 01:15:53 +0000.
+	 Executed 7 tests, with 0 failures (0 unexpected) in 0.008 (0.009) seconds
+Test Suite 'XYZSignalSpec' started at 2014-11-18 01:15:53 +0000
+Test Case '-[XYZSignalSpec XYZSignal_createDefaultSignal_CreatesAValidSignal]' started.
+2014-11-17 17:15:53.136 SampleProject[95307:60b] + 'XYZSignal, +createDefaultSignal, creates a valid signal' [PASSED]
+Test Case '-[XYZSignalSpec XYZSignal_createDefaultSignal_CreatesAValidSignal]' passed (0.049 seconds).
+Test Case '-[XYZSignalSpec XYZSignal_initWithDictionary_SetsTheActivationState]' started.
+2014-11-17 17:15:53.184 SampleProject[95307:60b] + 'XYZSignal, -initWithDictionary:, sets the activation state' [PASSED]
+Test Case '-[XYZSignalSpec XYZSignal_initWithDictionary_SetsTheActivationState]' passed (0.023 seconds).
+Test Case '-[XYZSignalSpec XYZSignal_initWithDictionary_SetsTheHour]' started.
+2014-11-17 17:15:53.207 SampleProject[95307:60b] + 'XYZSignal, -initWithDictionary:, sets the hour' [PASSED]
+Test Case '-[XYZSignalSpec XYZSignal_initWithDictionary_SetsTheHour]' passed (0.026 seconds).
+Test Case '-[XYZSignalSpec XYZSignal_initWithDictionary_SetsTheMinute]' started.
+2014-11-17 17:15:53.234 SampleProject[95307:60b] + 'XYZSignal, -initWithDictionary:, sets the minute' [PASSED]
+Test Case '-[XYZSignalSpec XYZSignal_initWithDictionary_SetsTheMinute]' passed (0.027 seconds).
+Test Case '-[XYZSignalSpec XYZSignal_initWithDictionary_SetsTheSoundName]' started.
+2014-11-17 17:15:53.260 SampleProject[95307:60b] + 'XYZSignal, -initWithDictionary:, sets the sound name' [PASSED]
+Test Case '-[XYZSignalSpec XYZSignal_initWithDictionary_SetsTheSoundName]' passed (0.026 seconds).
+Test Case '-[XYZSignalSpec XYZSignal_initWithDictionary_SetsTheSoundName_2]' started.
+2014-11-17 17:15:53.288 SampleProject[95307:60b] + 'XYZSignal, -initWithDictionary:, sets the sound name' [PASSED]
+Test Case '-[XYZSignalSpec XYZSignal_initWithDictionary_SetsTheSoundName_2]' passed (0.028 seconds).
+Test Case '-[XYZSignalSpec XYZSignal_initWithDictionary_SetsTheEditableState]' started.
+2014-11-17 17:15:53.314 SampleProject[95307:60b] + 'XYZSignal, -initWithDictionary:, sets the editable state' [PASSED]
+Test Case '-[XYZSignalSpec XYZSignal_initWithDictionary_SetsTheEditableState]' passed (0.031 seconds).
+Test Case '-[XYZSignalSpec XYZSignal_initWithDictionary_SetsTheSmartSignalState]' started.
+2014-11-17 17:15:53.347 SampleProject[95307:60b] + 'XYZSignal, -initWithDictionary:, sets the smart signal state' [PASSED]
+Test Case '-[XYZSignalSpec XYZSignal_initWithDictionary_SetsTheSmartSignalState]' passed (0.034 seconds).
+Test Case '-[XYZSignalSpec XYZSignal_initWithDictionary_SetsTheRepeatDays]' started.
+2014-11-17 17:15:53.381 SampleProject[95307:60b] + 'XYZSignal, -initWithDictionary:, sets the repeat days' [PASSED]
+Test Case '-[XYZSignalSpec XYZSignal_initWithDictionary_SetsTheRepeatDays]' passed (0.035 seconds).
+Test Case '-[XYZSignalSpec XYZSignal_RepeatFlags_ASingleDayWillBeRepeated_AcceptsASingleDay]' started.
+2014-11-17 17:15:53.416 SampleProject[95307:60b] + 'XYZSignal, - repeatFlags, a single day will be repeated, accepts a single day' [PASSED]
+Test Case '-[XYZSignalSpec XYZSignal_RepeatFlags_ASingleDayWillBeRepeated_AcceptsASingleDay]' passed (0.019 seconds).
+Test Case '-[XYZSignalSpec XYZSignal_RepeatFlags_ASingleDayWillBeRepeated_DoesNotIncludeExcludedDays]' started.
+2014-11-17 17:15:53.434 SampleProject[95307:60b] + 'XYZSignal, - repeatFlags, a single day will be repeated, does not include excluded days' [PASSED]
+Test Case '-[XYZSignalSpec XYZSignal_RepeatFlags_ASingleDayWillBeRepeated_DoesNotIncludeExcludedDays]' passed (0.029 seconds).
+Test Case '-[XYZSignalSpec XYZSignal_RepeatFlags_MultipleDaysWillBeRepeated_DoesNotIncludeExcludedDays]' started.
+2014-11-17 17:15:53.464 SampleProject[95307:60b] + 'XYZSignal, - repeatFlags, multiple days will be repeated, does not include excluded days' [PASSED]
+Test Case '-[XYZSignalSpec XYZSignal_RepeatFlags_MultipleDaysWillBeRepeated_DoesNotIncludeExcludedDays]' passed (0.021 seconds).
+Test Case '-[XYZSignalSpec XYZSignal_RepeatFlags_MultipleDaysWillBeRepeated_IncludesIncludedDays]' started.
+2014-11-17 17:15:53.484 SampleProject[95307:60b] + 'XYZSignal, - repeatFlags, multiple days will be repeated, includes included days' [PASSED]
+Test Case '-[XYZSignalSpec XYZSignal_RepeatFlags_MultipleDaysWillBeRepeated_IncludesIncludedDays]' passed (0.026 seconds).
+Test Case '-[XYZSignalSpec XYZSignal_IncrementSignalTimeByMinutes_MinutesDoNotRollOverToADifferentHour_UpdatesTheNumberOfMinutes]' started.
+2014-11-17 17:15:53.510 SampleProject[95307:60b] + 'XYZSignal, - incrementSignalTimeByMinutes:, minutes do not roll over to a different hour, updates the number of minutes' [PASSED]
+Test Case '-[XYZSignalSpec XYZSignal_IncrementSignalTimeByMinutes_MinutesDoNotRollOverToADifferentHour_UpdatesTheNumberOfMinutes]' passed (0.023 seconds).
+Test Case '-[XYZSignalSpec XYZSignal_IncrementSignalTimeByMinutes_MinutesRollOverToADifferenHour_UpdatesTheNumberOfMinutes]' started.
+2014-11-17 17:15:53.534 SampleProject[95307:60b] + 'XYZSignal, - incrementSignalTimeByMinutes:, minutes roll over to a differen hour, updates the number of minutes' [PASSED]
+Test Case '-[XYZSignalSpec XYZSignal_IncrementSignalTimeByMinutes_MinutesRollOverToADifferenHour_UpdatesTheNumberOfMinutes]' passed (0.029 seconds).
+Test Case '-[XYZSignalSpec XYZSignal_IncrementSignalTimeByMinutes_MinutesRollOverToADifferenHour_UpdatesTheNumberOfHours]' started.
+2014-11-17 17:15:53.563 SampleProject[95307:60b] + 'XYZSignal, - incrementSignalTimeByMinutes:, minutes roll over to a differen hour, updates the number of hours' [PASSED]
+Test Case '-[XYZSignalSpec XYZSignal_IncrementSignalTimeByMinutes_MinutesRollOverToADifferenHour_UpdatesTheNumberOfHours]' passed (0.020 seconds).
+Test Case '-[XYZSignalSpec XYZSignal_IncrementSignalTimeByMinutes_MinutesAndHoursRollForwardToADifferentDay_UpdatesTheNumberOfMinutes]' started.
+2014-11-17 17:15:53.582 SampleProject[95307:60b] + 'XYZSignal, - incrementSignalTimeByMinutes:, minutes and hours roll forward to a different day, updates the number of minutes' [PASSED]
+Test Case '-[XYZSignalSpec XYZSignal_IncrementSignalTimeByMinutes_MinutesAndHoursRollForwardToADifferentDay_UpdatesTheNumberOfMinutes]' passed (0.025 seconds).
+Test Case '-[XYZSignalSpec XYZSignal_IncrementSignalTimeByMinutes_MinutesAndHoursRollForwardToADifferentDay_UpdatesTheNumberOfHours]' started.
+2014-11-17 17:15:53.607 SampleProject[95307:60b] + 'XYZSignal, - incrementSignalTimeByMinutes:, minutes and hours roll forward to a different day, updates the number of hours' [PASSED]
+Test Case '-[XYZSignalSpec XYZSignal_IncrementSignalTimeByMinutes_MinutesAndHoursRollForwardToADifferentDay_UpdatesTheNumberOfHours]' passed (0.024 seconds).
+Test Case '-[XYZSignalSpec XYZSignal_IncrementSignalTimeByMinutes_MinutesAndHoursRollBackwardToADifferentDay_UpdatesTheNumberOfMinutes]' started.
+2014-11-17 17:15:53.631 SampleProject[95307:60b] + 'XYZSignal, - incrementSignalTimeByMinutes:, minutes and hours roll backward to a different day, updates the number of minutes' [PASSED]
+Test Case '-[XYZSignalSpec XYZSignal_IncrementSignalTimeByMinutes_MinutesAndHoursRollBackwardToADifferentDay_UpdatesTheNumberOfMinutes]' passed (0.030 seconds).
+Test Case '-[XYZSignalSpec XYZSignal_IncrementSignalTimeByMinutes_MinutesAndHoursRollBackwardToADifferentDay_UpdatesTheNumberOfHours]' started.
+2014-11-17 17:15:53.660 SampleProject[95307:60b] + 'XYZSignal, - incrementSignalTimeByMinutes:, minutes and hours roll backward to a different day, updates the number of hours' [PASSED]
+Test Case '-[XYZSignalSpec XYZSignal_IncrementSignalTimeByMinutes_MinutesAndHoursRollBackwardToADifferentDay_UpdatesTheNumberOfHours]' passed (0.025 seconds).
+Test Case '-[XYZSignalSpec XYZSignal_IncrementSignalTimeByMinutes_MinutesRollBackwardsLessThanAnHour_UpdatesTheMinutes]' started.
+2014-11-17 17:15:53.688 SampleProject[95307:60b] + 'XYZSignal, - incrementSignalTimeByMinutes:, minutes roll backwards less than an hour, updates the minutes' [PASSED]
+Test Case '-[XYZSignalSpec XYZSignal_IncrementSignalTimeByMinutes_MinutesRollBackwardsLessThanAnHour_UpdatesTheMinutes]' passed (0.021 seconds).
+Test Case '-[XYZSignalSpec XYZSignal_IncrementSignalTimeByMinutes_MinutesRollBackwardsLessThanAnHour_UpdatesTheHour]' started.
+2014-11-17 17:15:53.708 SampleProject[95307:60b] + 'XYZSignal, - incrementSignalTimeByMinutes:, minutes roll backwards less than an hour, updates the hour' [PASSED]
+Test Case '-[XYZSignalSpec XYZSignal_IncrementSignalTimeByMinutes_MinutesRollBackwardsLessThanAnHour_UpdatesTheHour]' passed (0.020 seconds).
+Test Case '-[XYZSignalSpec XYZSignal_IsSaved_AnSignalIsUnsaved_IsFalse]' started.
+2014-11-17 17:15:53.728 SampleProject[95307:60b] + 'XYZSignal, - isSaved, an signal is unsaved, is false' [PASSED]
+Test Case '-[XYZSignalSpec XYZSignal_IsSaved_AnSignalIsUnsaved_IsFalse]' passed (0.034 seconds).
+Test Case '-[XYZSignalSpec XYZSignal_IsSaved_AnSignalIsSaved_IsTrue]' started.
+2014-11-17 17:15:53.762 SampleProject[95307:60b] + 'XYZSignal, - isSaved, an signal is saved, is true' [PASSED]
+Test Case '-[XYZSignalSpec XYZSignal_IsSaved_AnSignalIsSaved_IsTrue]' passed (0.026 seconds).
+Test Case '-[XYZSignalSpec XYZSignal_IsSaved_AnSignalIsSaved_AnSignalIsDeleted_IsFalse]' started.
+2014-11-17 17:15:53.790 SampleProject[95307:60b] + 'XYZSignal, - isSaved, an signal is saved, an signal is deleted, is false' [PASSED]
+Test Case '-[XYZSignalSpec XYZSignal_IsSaved_AnSignalIsSaved_AnSignalIsDeleted_IsFalse]' passed (0.032 seconds).
+Test Case '-[XYZSignalSpec XYZSignal_SavedSignals_IsInitiallyEmpty]' started.
+2014-11-17 17:15:53.820 SampleProject[95307:60b] + 'XYZSignal, + savedSignals, is initially empty' [PASSED]
+Test Case '-[XYZSignalSpec XYZSignal_SavedSignals_IsInitiallyEmpty]' passed (0.029 seconds).
+Test Case '-[XYZSignalSpec XYZSignal_SavedSignals_AnSignalIsSaved_ReturnsTheSavedSignal]' started.
+2014-11-17 17:15:53.851 SampleProject[95307:60b] + 'XYZSignal, + savedSignals, an signal is saved, returns the saved signal' [PASSED]
+Test Case '-[XYZSignalSpec XYZSignal_SavedSignals_AnSignalIsSaved_ReturnsTheSavedSignal]' passed (0.035 seconds).
+Test Case '-[XYZSignalSpec XYZSignal_SavedSignals_AnSignalIsSaved_AnSignalIsSavedAgain_DoesNotSaveDuplicateSignals]' started.
+2014-11-17 17:15:53.885 SampleProject[95307:60b] + 'XYZSignal, + savedSignals, an signal is saved, an signal is saved again, does not save duplicate signals' [PASSED]
+Test Case '-[XYZSignalSpec XYZSignal_SavedSignals_AnSignalIsSaved_AnSignalIsSavedAgain_DoesNotSaveDuplicateSignals]' passed (0.028 seconds).
+Test Case '-[XYZSignalSpec XYZSignal_SavedSignals_AnSignalIsSaved_ADifferentSignalIsSaved_SavesSeparateSignals]' started.
+2014-11-17 17:15:53.913 SampleProject[95307:60b] + 'XYZSignal, + savedSignals, an signal is saved, a different signal is saved, saves separate signals' [PASSED]
+Test Case '-[XYZSignalSpec XYZSignal_SavedSignals_AnSignalIsSaved_ADifferentSignalIsSaved_SavesSeparateSignals]' passed (0.026 seconds).
+Test Case '-[XYZSignalSpec XYZSignal_SavedSignals_AnSignalIsSaved_AnSignalIsDeleted_RemovesTheSignalFromTheStore]' started.
+2014-11-17 17:15:53.939 SampleProject[95307:60b] + 'XYZSignal, + savedSignals, an signal is saved, an signal is deleted, removes the signal from the store' [PASSED]
+Test Case '-[XYZSignalSpec XYZSignal_SavedSignals_AnSignalIsSaved_AnSignalIsDeleted_RemovesTheSignalFromTheStore]' passed (0.023 seconds).
+Test Suite 'XYZSignalSpec' passed at 2014-11-18 01:15:53 +0000.
+	 Executed 30 tests, with 0 failures (0 unexpected) in 0.826 (0.828) seconds
+Test Suite 'XYZHardwareManagerSpec' started at 2014-11-18 01:15:54 +0000
+Test Case '-[XYZHardwareManagerSpec XYZHardwareManager_scanForHardware_ShouldReturnNOWhileInTests]' started.
+2014-11-17 17:15:54.104 SampleProject[95307:60b] + 'XYZHardwareManager, +scanForHardware:, should return NO while in tests' [PASSED]
+Test Case '-[XYZHardwareManagerSpec XYZHardwareManager_scanForHardware_ShouldReturnNOWhileInTests]' passed (0.002 seconds).
+Test Case '-[XYZHardwareManagerSpec XYZHardwareManager_scanForHardwareWithTimeoutcompletion_ShouldReturnNOWhileInTests]' started.
+2014-11-17 17:15:54.105 SampleProject[95307:60b] + 'XYZHardwareManager, +scanForHardwareWithTimeout:completion, should return NO while in tests' [PASSED]
+Test Case '-[XYZHardwareManagerSpec XYZHardwareManager_scanForHardwareWithTimeoutcompletion_ShouldReturnNOWhileInTests]' passed (0.001 seconds).
+Test Case '-[XYZHardwareManagerSpec XYZHardwareManager_enablePairingModesuccessfailure_ShouldFailWithNoHardwareInitialized]' started.
+2014-11-17 17:15:54.106 SampleProject[95307:60b] The platform/hardware doesn't support Bluetooth Low Energy.
+2014-11-17 17:15:54.207 SampleProject[95307:60b] + 'XYZHardwareManager, -enablePairingMode:success:failure, should fail with no hardware initialized' [PASSED]
+Test Case '-[XYZHardwareManagerSpec XYZHardwareManager_enablePairingModesuccessfailure_ShouldFailWithNoHardwareInitialized]' passed (0.103 seconds).
+Test Case '-[XYZHardwareManagerSpec XYZHardwareManager_enablePairingModesuccessfailure_ShouldFailIfHardwareNotInitializedProperly]' started.
+2014-11-17 17:15:54.311 SampleProject[95307:60b] + 'XYZHardwareManager, -enablePairingMode:success:failure, should fail if hardware not initialized properly' [PASSED]
+Test Case '-[XYZHardwareManagerSpec XYZHardwareManager_enablePairingModesuccessfailure_ShouldFailIfHardwareNotInitializedProperly]' passed (0.103 seconds).
+Test Case '-[XYZHardwareManagerSpec XYZHardwareManager_removeOtherPairedDevicesfailure_ShouldFailWithNoHardwareInitialized]' started.
+2014-11-17 17:15:54.414 SampleProject[95307:60b] + 'XYZHardwareManager, -removeOtherPairedDevices:failure:, should fail with no hardware initialized' [PASSED]
+Test Case '-[XYZHardwareManagerSpec XYZHardwareManager_removeOtherPairedDevicesfailure_ShouldFailWithNoHardwareInitialized]' passed (0.103 seconds).
+Test Case '-[XYZHardwareManagerSpec XYZHardwareManager_removeOtherPairedDevicesfailure_ShouldFailIfHardwareNotInitializedProperly]' started.
+2014-11-17 17:15:54.516 SampleProject[95307:60b] + 'XYZHardwareManager, -removeOtherPairedDevices:failure:, should fail if hardware not initialized properly' [PASSED]
+Test Case '-[XYZHardwareManagerSpec XYZHardwareManager_removeOtherPairedDevicesfailure_ShouldFailIfHardwareNotInitializedProperly]' passed (0.104 seconds).
+Test Case '-[XYZHardwareManagerSpec XYZHardwareManager_blePackets_PacketsShouldBeProperlyFormatted]' started.
+2014-11-17 17:15:54.519 SampleProject[95307:60b] + 'XYZHardwareManager, -blePackets:, packets should be properly formatted' [PASSED]
+Test Case '-[XYZHardwareManagerSpec XYZHardwareManager_blePackets_PacketsShouldBeProperlyFormatted]' passed (0.003 seconds).
+Test Case '-[XYZHardwareManagerSpec XYZHardwareManager_messageFromBlePacketserror_ASingleProperlyFormattedPacketShouldReturnAMessage]' started.
+2014-11-17 17:15:54.522 SampleProject[95307:60b] + 'XYZHardwareManager, -messageFromBlePackets:error:, a single properly formatted packet should return a message' [PASSED]
+Test Case '-[XYZHardwareManagerSpec XYZHardwareManager_messageFromBlePacketserror_ASingleProperlyFormattedPacketShouldReturnAMessage]' passed (0.002 seconds).
+Test Case '-[XYZHardwareManagerSpec XYZHardwareManager_messageFromBlePacketserror_AMalformedHelloBlePacketShouldReturnAnError]' started.
+2014-11-17 17:15:54.525 SampleProject[95307:60b] + 'XYZHardwareManager, -messageFromBlePackets:error:, a malformed hello ble packet should return an error' [PASSED]
+Test Case '-[XYZHardwareManagerSpec XYZHardwareManager_messageFromBlePacketserror_AMalformedHelloBlePacketShouldReturnAnError]' passed (0.002 seconds).
+Test Case '-[XYZHardwareManagerSpec XYZHardwareManager_handleResponseUpdateerrorforMessageTypeallPacketstotalPacketssuccessfailure_HandlingAResponseThatHasOnly1PacketShouldReturnSuccess]' started.
+2014-11-17 17:15:54.735 SampleProject[95307:60b] + 'XYZHardwareManager, -handleResponseUpdate:error:forMessageType:allPackets:totalPackets:success:failure, handling a response that has only 1 packet should return success' [PASSED]
+Test Case '-[XYZHardwareManagerSpec XYZHardwareManager_handleResponseUpdateerrorforMessageTypeallPacketstotalPacketssuccessfailure_HandlingAResponseThatHasOnly1PacketShouldReturnSuccess]' passed (0.209 seconds).
+Test Case '-[XYZHardwareManagerSpec XYZHardwareManager_handleResponseUpdateerrorforMessageTypeallPacketstotalPacketssuccessfailure_HandlingAResponseWithErrorShouldInvokeFailureBlock]' started.
+2014-11-17 17:15:54.837 SampleProject[95307:60b] + 'XYZHardwareManager, -handleResponseUpdate:error:forMessageType:allPackets:totalPackets:success:failure, handling a response with error should invoke failure block' [PASSED]
+Test Case '-[XYZHardwareManagerSpec XYZHardwareManager_handleResponseUpdateerrorforMessageTypeallPacketstotalPacketssuccessfailure_HandlingAResponseWithErrorShouldInvokeFailureBlock]' passed (0.102 seconds).
+Test Case '-[XYZHardwareManagerSpec XYZHardwareManager_sendPacketsfromthroughWritersuccessfailure_ShouldFailBecauseTheresNoConnectionToBlePheripheral]' started.
+2014-11-17 17:15:54.939 SampleProject[95307:60b] + 'XYZHardwareManager, -sendPackets:from:throughWriter:success:failure, should fail because there's no connection to ble pheripheral' [PASSED]
+Test Case '-[XYZHardwareManagerSpec XYZHardwareManager_sendPacketsfromthroughWritersuccessfailure_ShouldFailBecauseTheresNoConnectionToBlePheripheral]' passed (0.102 seconds).
+Test Case '-[XYZHardwareManagerSpec XYZHardwareManager_TimeOuts_ShouldCacheTheTimerSoThatItCanBeCancelled]' started.
+2014-11-17 17:15:54.941 SampleProject[95307:60b] + 'XYZHardwareManager, time outs, should cache the timer so that it can be cancelled' [PASSED]
+Test Case '-[XYZHardwareManagerSpec XYZHardwareManager_TimeOuts_ShouldCacheTheTimerSoThatItCanBeCancelled]' passed (0.001 seconds).
+Test Case '-[XYZHardwareManagerSpec XYZHardwareManager_TimeOuts_WhenTimerFires_CallingTimedOut_TimerAndCallbacksShouldBeNil]' started.
+2014-11-17 17:15:54.942 SampleProject[95307:60b] + 'XYZHardwareManager, time outs, when timer fires, calling timedOut:, timer and callbacks should be nil' [PASSED]
+Test Case '-[XYZHardwareManagerSpec XYZHardwareManager_TimeOuts_WhenTimerFires_CallingTimedOut_TimerAndCallbacksShouldBeNil]' passed (0.002 seconds).
+Test Suite 'XYZHardwareManagerSpec' passed at 2014-11-18 01:15:54 +0000.
+	 Executed 14 tests, with 0 failures (0 unexpected) in 0.840 (0.841) seconds
+Test Suite 'XYZSensorSpec' started at 2014-11-18 01:15:54 +0000
+Test Case '-[XYZSensorSpec XYZSensor_initWithDictionary_SetsTheName]' started.
+2014-11-17 17:15:54.944 SampleProject[95307:60b] + 'XYZSensor, -initWithDictionary:, sets the name' [PASSED]
+Test Case '-[XYZSensorSpec XYZSensor_initWithDictionary_SetsTheName]' passed (0.001 seconds).
+Test Case '-[XYZSensorSpec XYZSensor_initWithDictionary_SetsTheValue]' started.
+2014-11-17 17:15:54.945 SampleProject[95307:60b] + 'XYZSensor, -initWithDictionary:, sets the value' [PASSED]
+Test Case '-[XYZSensorSpec XYZSensor_initWithDictionary_SetsTheValue]' passed (0.001 seconds).
+Test Case '-[XYZSensorSpec XYZSensor_initWithDictionary_SetsTheUnit]' started.
+2014-11-17 17:15:54.946 SampleProject[95307:60b] + 'XYZSensor, -initWithDictionary:, sets the unit' [PASSED]
+Test Case '-[XYZSensorSpec XYZSensor_initWithDictionary_SetsTheUnit]' passed (0.001 seconds).
+Test Case '-[XYZSensorSpec XYZSensor_initWithDictionary_SetsTheMessage]' started.
+2014-11-17 17:15:54.947 SampleProject[95307:60b] + 'XYZSensor, -initWithDictionary:, sets the message' [PASSED]
+Test Case '-[XYZSensorSpec XYZSensor_initWithDictionary_SetsTheMessage]' passed (0.001 seconds).
+Test Case '-[XYZSensorSpec XYZSensor_initWithDictionary_SetsTheCondition]' started.
+2014-11-17 17:15:54.948 SampleProject[95307:60b] + 'XYZSensor, -initWithDictionary:, sets the condition' [PASSED]
+Test Case '-[XYZSensorSpec XYZSensor_initWithDictionary_SetsTheCondition]' passed (0.001 seconds).
+Test Case '-[XYZSensorSpec XYZSensor_initWithDictionary_SetsTheUpdatedDate]' started.
+2014-11-17 17:15:54.949 SampleProject[95307:60b] + 'XYZSensor, -initWithDictionary:, sets the updated date' [PASSED]
+Test Case '-[XYZSensorSpec XYZSensor_initWithDictionary_SetsTheUpdatedDate]' passed (0.001 seconds).
+Test Suite 'XYZSensorSpec' passed at 2014-11-18 01:15:54 +0000.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.006 (0.006) seconds
+Test Suite 'XYZServiceQuestionsSpec' started at 2014-11-18 01:15:54 +0000
+Test Case '-[XYZServiceQuestionsSpec XYZServiceQuestionsSpec_sharedService_ShouldBeSingleton]' started.
+2014-11-17 17:15:54.950 SampleProject[95307:60b] + 'XYZServiceQuestionsSpec, +sharedService, should be singleton' [PASSED]
+Test Case '-[XYZServiceQuestionsSpec XYZServiceQuestionsSpec_sharedService_ShouldBeSingleton]' passed (0.001 seconds).
+Test Case '-[XYZServiceQuestionsSpec XYZServiceQuestionsSpec_setQuestionsAskedToday_ShouldSetKeyInNSUserDefaultsTo]' started.
+2014-11-17 17:15:54.958 SampleProject[95307:60b] + 'XYZServiceQuestionsSpec, -setQuestionsAskedToday, should set key in NSUserDefaults to' [PASSED]
+Test Case '-[XYZServiceQuestionsSpec XYZServiceQuestionsSpec_setQuestionsAskedToday_ShouldSetKeyInNSUserDefaultsTo]' passed (0.007 seconds).
+Test Case '-[XYZServiceQuestionsSpec XYZServiceQuestionsSpec_listenForNewQuestions_IfCallbackIsNilNull_ShouldNotReturnObserver]' started.
+2014-11-17 17:15:54.959 SampleProject[95307:60b] + 'XYZServiceQuestionsSpec, -listenForNewQuestions:, if callback is nil / null, should not return observer' [PASSED]
+Test Case '-[XYZServiceQuestionsSpec XYZServiceQuestionsSpec_listenForNewQuestions_IfCallbackIsNilNull_ShouldNotReturnObserver]' passed (0.001 seconds).
+Test Case '-[XYZServiceQuestionsSpec XYZServiceQuestionsSpec_listenForNewQuestions_IfCallbackIsNotNil_ObserverShouldNotBeNilEither]' started.
+2014-11-17 17:15:54.960 SampleProject[95307:60b] + 'XYZServiceQuestionsSpec, -listenForNewQuestions:, if callback is not nil, observer should not be nil either' [PASSED]
+Test Case '-[XYZServiceQuestionsSpec XYZServiceQuestionsSpec_listenForNewQuestions_IfCallbackIsNotNil_ObserverShouldNotBeNilEither]' passed (0.001 seconds).
+Test Case '-[XYZServiceQuestionsSpec XYZServiceQuestionsSpec_stopListening_PassingNilShouldStillBeOK]' started.
+2014-11-17 17:15:54.961 SampleProject[95307:60b] + 'XYZServiceQuestionsSpec, -stopListening:, passing nil should still be OK' [PASSED]
+Test Case '-[XYZServiceQuestionsSpec XYZServiceQuestionsSpec_stopListening_PassingNilShouldStillBeOK]' passed (0.001 seconds).
+Test Suite 'XYZServiceQuestionsSpec' passed at 2014-11-18 01:15:54 +0000.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.012 (0.012) seconds
+Test Suite 'XYZSettingsSpec' started at 2014-11-18 01:15:54 +0000
+Test Case '-[XYZSettingsSpec XYZSettings_defaults_ShouldReturnValuesManaged]' started.
+2014-11-17 17:15:54.963 SampleProject[95307:60b] + 'XYZSettings, +defaults, should return values managed' [PASSED]
+Test Case '-[XYZSettingsSpec XYZSettings_defaults_ShouldReturnValuesManaged]' passed (0.002 seconds).
+Test Suite 'XYZSettingsSpec' passed at 2014-11-18 01:15:54 +0000.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.002 (0.002) seconds
+Test Suite 'XYZHardwareAnalysisComponentSpec' started at 2014-11-18 01:15:54 +0000
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Initialization_SetsTheServerID]' started.
+2014-11-17 17:15:54.964 SampleProject[95307:60b] + 'XYZHardwareAnalysisComponent, initialization, sets the server ID' [PASSED]
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Initialization_SetsTheServerID]' passed (0.001 seconds).
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Initialization_SetsTheDateAndTime]' started.
+2014-11-17 17:15:54.965 SampleProject[95307:60b] + 'XYZHardwareAnalysisComponent, initialization, sets the date and time' [PASSED]
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Initialization_SetsTheDateAndTime]' passed (0.001 seconds).
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Initialization_SetsTheDuration]' started.
+2014-11-17 17:15:54.967 SampleProject[95307:60b] + 'XYZHardwareAnalysisComponent, initialization, sets the duration' [PASSED]
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Initialization_SetsTheDuration]' passed (0.001 seconds).
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Initialization_SetsTheMessage]' started.
+2014-11-17 17:15:54.968 SampleProject[95307:60b] + 'XYZHardwareAnalysisComponent, initialization, sets the message' [PASSED]
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Initialization_SetsTheMessage]' passed (0.001 seconds).
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Initialization_SetsTheEventType]' started.
+2014-11-17 17:15:54.969 SampleProject[95307:60b] + 'XYZHardwareAnalysisComponent, initialization, sets the event type' [PASSED]
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Initialization_SetsTheEventType]' passed (0.001 seconds).
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Initialization_SetsTheDepth]' started.
+2014-11-17 17:15:54.970 SampleProject[95307:60b] + 'XYZHardwareAnalysisComponent, initialization, sets the depth' [PASSED]
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Initialization_SetsTheDepth]' passed (0.001 seconds).
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Initialization_SetsTheSoundUrl]' started.
+2014-11-17 17:15:54.970 SampleProject[95307:60b] + 'XYZHardwareAnalysisComponent, initialization, sets the sound url' [PASSED]
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Initialization_SetsTheSoundUrl]' passed (0.001 seconds).
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Initialization_SetsTheSoundDuration]' started.
+2014-11-17 17:15:54.971 SampleProject[95307:60b] + 'XYZHardwareAnalysisComponent, initialization, sets the sound duration' [PASSED]
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Initialization_SetsTheSoundDuration]' passed (0.001 seconds).
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Serialization_IsSerializable]' started.
+2014-11-17 17:15:54.972 SampleProject[95307:60b] + 'XYZHardwareAnalysisComponent, serialization, is serializable' [PASSED]
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Serialization_IsSerializable]' passed (0.001 seconds).
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Serialization_HasTheSameServerIDAfterSerialization]' started.
+2014-11-17 17:15:54.974 SampleProject[95307:60b] + 'XYZHardwareAnalysisComponent, serialization, has the same server ID after serialization' [PASSED]
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Serialization_HasTheSameServerIDAfterSerialization]' passed (0.002 seconds).
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Serialization_HasTheSameDateAfterSerialization]' started.
+2014-11-17 17:15:54.976 SampleProject[95307:60b] + 'XYZHardwareAnalysisComponent, serialization, has the same date after serialization' [PASSED]
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Serialization_HasTheSameDateAfterSerialization]' passed (0.001 seconds).
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Serialization_HasTheSameMessageAfterSerialization]' started.
+2014-11-17 17:15:54.977 SampleProject[95307:60b] + 'XYZHardwareAnalysisComponent, serialization, has the same message after serialization' [PASSED]
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Serialization_HasTheSameMessageAfterSerialization]' passed (0.001 seconds).
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Serialization_HasTheSameEventTypeAfterSerialization]' started.
+2014-11-17 17:15:54.979 SampleProject[95307:60b] + 'XYZHardwareAnalysisComponent, serialization, has the same event type after serialization' [PASSED]
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Serialization_HasTheSameEventTypeAfterSerialization]' passed (0.001 seconds).
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Serialization_HasTheSameDepthAfterSerialization]' started.
+2014-11-17 17:15:54.980 SampleProject[95307:60b] + 'XYZHardwareAnalysisComponent, serialization, has the same depth after serialization' [PASSED]
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Serialization_HasTheSameDepthAfterSerialization]' passed (0.002 seconds).
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Serialization_HasTheSameSoundURLAfterSerialization]' started.
+2014-11-17 17:15:54.982 SampleProject[95307:60b] + 'XYZHardwareAnalysisComponent, serialization, has the same sound URL after serialization' [PASSED]
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Serialization_HasTheSameSoundURLAfterSerialization]' passed (0.001 seconds).
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Serialization_HasTheSameSoundURLAfterSerialization_2]' started.
+2014-11-17 17:15:54.983 SampleProject[95307:60b] + 'XYZHardwareAnalysisComponent, serialization, has the same sound URL after serialization' [PASSED]
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Serialization_HasTheSameSoundURLAfterSerialization_2]' passed (0.001 seconds).
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Updating_UpdatesAnExistingInstanceWithADictionary]' started.
+2014-11-17 17:15:54.984 SampleProject[95307:60b] + 'XYZHardwareAnalysisComponent, updating, updates an existing instance with a dictionary' [PASSED]
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Updating_UpdatesAnExistingInstanceWithADictionary]' passed (0.001 seconds).
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Updating_DoesNotOverrideFieldsMissingFromADictionary]' started.
+2014-11-17 17:15:54.985 SampleProject[95307:60b] + 'XYZHardwareAnalysisComponent, updating, does not override fields missing from a dictionary' [PASSED]
+Test Case '-[XYZHardwareAnalysisComponentSpec XYZHardwareAnalysisComponent_Updating_DoesNotOverrideFieldsMissingFromADictionary]' passed (0.001 seconds).
+Test Suite 'XYZHardwareAnalysisComponentSpec' passed at 2014-11-18 01:15:54 +0000.
+	 Executed 18 tests, with 0 failures (0 unexpected) in 0.021 (0.022) seconds
+Test Suite 'XYZResultSensorInsightSpec' started at 2014-11-18 01:15:54 +0000
+Test Case '-[XYZResultSensorInsightSpec XYZResultSensorInsight_Initialization_SetsTheMessage]' started.
+2014-11-17 17:15:54.987 SampleProject[95307:60b] + 'XYZResultSensorInsight, initialization, sets the message' [PASSED]
+Test Case '-[XYZResultSensorInsightSpec XYZResultSensorInsight_Initialization_SetsTheMessage]' passed (0.001 seconds).
+Test Case '-[XYZResultSensorInsightSpec XYZResultSensorInsight_Initialization_SetsTheName]' started.
+2014-11-17 17:15:54.989 SampleProject[95307:60b] + 'XYZResultSensorInsight, initialization, sets the name' [PASSED]
+Test Case '-[XYZResultSensorInsightSpec XYZResultSensorInsight_Initialization_SetsTheName]' passed (0.001 seconds).
+Test Case '-[XYZResultSensorInsightSpec XYZResultSensorInsight_Initialization_SetsTheCondition]' started.
+2014-11-17 17:15:54.990 SampleProject[95307:60b] + 'XYZResultSensorInsight, initialization, sets the condition' [PASSED]
+Test Case '-[XYZResultSensorInsightSpec XYZResultSensorInsight_Initialization_SetsTheCondition]' passed (0.001 seconds).
+Test Case '-[XYZResultSensorInsightSpec XYZResultSensorInsight_Serialization_IsSerializable]' started.
+2014-11-17 17:15:54.992 SampleProject[95307:60b] + 'XYZResultSensorInsight, serialization, is serializable' [PASSED]
+Test Case '-[XYZResultSensorInsightSpec XYZResultSensorInsight_Serialization_IsSerializable]' passed (0.002 seconds).
+Test Case '-[XYZResultSensorInsightSpec XYZResultSensorInsight_Serialization_HasTheSameNameAfterSerialization]' started.
+2014-11-17 17:15:54.993 SampleProject[95307:60b] + 'XYZResultSensorInsight, serialization, has the same name after serialization' [PASSED]
+Test Case '-[XYZResultSensorInsightSpec XYZResultSensorInsight_Serialization_HasTheSameNameAfterSerialization]' passed (0.001 seconds).
+Test Case '-[XYZResultSensorInsightSpec XYZResultSensorInsight_Serialization_HasTheSameMessageAfterSerialization]' started.
+2014-11-17 17:15:54.994 SampleProject[95307:60b] + 'XYZResultSensorInsight, serialization, has the same message after serialization' [PASSED]
+Test Case '-[XYZResultSensorInsightSpec XYZResultSensorInsight_Serialization_HasTheSameMessageAfterSerialization]' passed (0.001 seconds).
+Test Case '-[XYZResultSensorInsightSpec XYZResultSensorInsight_Serialization_HasTheSameConditionAfterSerialization]' started.
+2014-11-17 17:15:54.995 SampleProject[95307:60b] + 'XYZResultSensorInsight, serialization, has the same condition after serialization' [PASSED]
+Test Case '-[XYZResultSensorInsightSpec XYZResultSensorInsight_Serialization_HasTheSameConditionAfterSerialization]' passed (0.001 seconds).
+Test Case '-[XYZResultSensorInsightSpec XYZResultSensorInsight_Updating_UpdatesAnExistingInstanceWithADictionary]' started.
+2014-11-17 17:15:54.996 SampleProject[95307:60b] + 'XYZResultSensorInsight, updating, updates an existing instance with a dictionary' [PASSED]
+Test Case '-[XYZResultSensorInsightSpec XYZResultSensorInsight_Updating_UpdatesAnExistingInstanceWithADictionary]' passed (0.001 seconds).
+Test Case '-[XYZResultSensorInsightSpec XYZResultSensorInsight_Updating_DoesNotOverrideFieldsMissingFromADictionary]' started.
+2014-11-17 17:15:54.997 SampleProject[95307:60b] + 'XYZResultSensorInsight, updating, does not override fields missing from a dictionary' [PASSED]
+Test Case '-[XYZResultSensorInsightSpec XYZResultSensorInsight_Updating_DoesNotOverrideFieldsMissingFromADictionary]' passed (0.001 seconds).
+Test Suite 'XYZResultSensorInsightSpec' passed at 2014-11-18 01:15:54 +0000.
+	 Executed 9 tests, with 0 failures (0 unexpected) in 0.010 (0.011) seconds
+Test Suite 'XYZResultSpec' started at 2014-11-18 01:15:54 +0000
+Test Case '-[XYZResultSpec XYZResult_Initialization_PopulatesANewInstanceFromADictionary]' started.
+2014-11-17 17:15:54.998 SampleProject[95307:60b] + 'XYZResult, initialization, populates a new instance from a dictionary' [PASSED]
+Test Case '-[XYZResultSpec XYZResult_Initialization_PopulatesANewInstanceFromADictionary]' passed (0.001 seconds).
+Test Case '-[XYZResultSpec XYZResult_Initialization_SetsTheDate]' started.
+2014-11-17 17:15:55.000 SampleProject[95307:60b] + 'XYZResult, initialization, sets the date' [PASSED]
+Test Case '-[XYZResultSpec XYZResult_Initialization_SetsTheDate]' passed (0.002 seconds).
+Test Case '-[XYZResultSpec XYZResult_Initialization_SetsTheScore]' started.
+2014-11-17 17:15:55.001 SampleProject[95307:60b] + 'XYZResult, initialization, sets the score' [PASSED]
+Test Case '-[XYZResultSpec XYZResult_Initialization_SetsTheScore]' passed (0.001 seconds).
+Test Case '-[XYZResultSpec XYZResult_Initialization_SetsTheSegments]' started.
+2014-11-17 17:15:55.002 SampleProject[95307:60b] + 'XYZResult, initialization, sets the segments' [PASSED]
+Test Case '-[XYZResultSpec XYZResult_Initialization_SetsTheSegments]' passed (0.001 seconds).
+Test Case '-[XYZResultSpec XYZResult_Initialization_SetsTheInsights]' started.
+2014-11-17 17:15:55.003 SampleProject[95307:60b] + 'XYZResult, initialization, sets the insights' [PASSED]
+Test Case '-[XYZResultSpec XYZResult_Initialization_SetsTheInsights]' passed (0.001 seconds).
+Test Case '-[XYZResultSpec XYZResult_Serialization_IsSerializable]' started.
+2014-11-17 17:15:55.004 SampleProject[95307:60b] + 'XYZResult, serialization, is serializable' [PASSED]
+Test Case '-[XYZResultSpec XYZResult_Serialization_IsSerializable]' passed (0.001 seconds).
+Test Case '-[XYZResultSpec XYZResult_Serialization_IsTheSameAfterSerialization]' started.
+2014-11-17 17:15:55.006 SampleProject[95307:60b] + 'XYZResult, serialization, is the same after serialization' [PASSED]
+Test Case '-[XYZResultSpec XYZResult_Serialization_IsTheSameAfterSerialization]' passed (0.002 seconds).
+Test Case '-[XYZResultSpec XYZResult_Updating_UpdatesAnExistingInstanceWithADictionary]' started.
+2014-11-17 17:15:55.007 SampleProject[95307:60b] + 'XYZResult, updating, updates an existing instance with a dictionary' [PASSED]
+Test Case '-[XYZResultSpec XYZResult_Updating_UpdatesAnExistingInstanceWithADictionary]' passed (0.001 seconds).
+Test Case '-[XYZResultSpec XYZResult_Updating_DoesNotOverrideFieldsMissingFromADictionary]' started.
+2014-11-17 17:15:55.008 SampleProject[95307:60b] + 'XYZResult, updating, does not override fields missing from a dictionary' [PASSED]
+Test Case '-[XYZResultSpec XYZResult_Updating_DoesNotOverrideFieldsMissingFromADictionary]' passed (0.001 seconds).
+Test Case '-[XYZResultSpec XYZResult_Updating_UpdatesAllInsights]' started.
+2014-11-17 17:15:55.009 SampleProject[95307:60b] + 'XYZResult, updating, updates all insights' [PASSED]
+Test Case '-[XYZResultSpec XYZResult_Updating_UpdatesAllInsights]' passed (0.001 seconds).
+Test Suite 'XYZResultSpec' passed at 2014-11-18 01:15:55 +0000.
+	 Executed 10 tests, with 0 failures (0 unexpected) in 0.012 (0.012) seconds
+Test Suite 'Tests.xctest' passed at 2014-11-18 01:15:55 +0000.
+	 Executed 165 tests, with 0 failures (0 unexpected) in 6.036 (6.050) seconds
+Test Suite 'All tests' passed at 2014-11-18 01:15:55 +0000.
+	 Executed 165 tests, with 0 failures (0 unexpected) in 6.036 (6.051) seconds
+** TEST SUCCEEDED **
