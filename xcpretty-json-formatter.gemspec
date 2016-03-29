@@ -11,8 +11,11 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/marcelofabri/xcpretty-json-formatter"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
-  spec.bindir        = "exe"
+  spec.files         = [
+  	"README.md",
+  	"LICENSE",
+  	"lib/json_formatter.rb",
+  	"bin/xcpretty-json-formatter"]
   spec.executables   = ["xcpretty-json-formatter"]
   spec.require_paths = ["lib"]
 
