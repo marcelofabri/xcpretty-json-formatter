@@ -33,7 +33,7 @@ xcodebuild | XCPRETTY_JSON_FILE_OUTPUT=result.json xcpretty -f `xcpretty-json-fo
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/marcelofabri/xcpretty-danger-formatter.
+Bug reports and pull requests are welcome on GitHub at https://github.com/marcelofabri/xcpretty-json-formatter.
 
 
 ## License
