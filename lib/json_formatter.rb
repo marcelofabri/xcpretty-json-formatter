@@ -15,6 +15,7 @@ class JSONFormatter < XCPretty::Simple
     @undefined_symbols_errors = []
     @duplicate_symbols_errors = []
     @failures = {}
+    @tests_summary_messages = []
   end
 
   def format_ld_warning(message)
@@ -89,6 +90,7 @@ class JSONFormatter < XCPretty::Simple
 
   def format_test_summary(message, failures_per_suite)
     @failures = failures_per_suite
+    @tests_summary_messages << message
     write_to_file_if_needed
     super
   end
@@ -108,7 +110,8 @@ class JSONFormatter < XCPretty::Simple
       :file_missing_errors => @file_missing_errors,
       :undefined_symbols_errors => @undefined_symbols_errors,
       :duplicate_symbols_errors => @duplicate_symbols_errors,
-      :tests_failures => @failures
+      :tests_failures => @failures,
+      :tests_summary_messages => @tests_summary_messages
     }
   end
   
