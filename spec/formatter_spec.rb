@@ -25,7 +25,6 @@ describe 'JSONFormatter' do
       FileUtils.cp("spec/fixtures/#{file}.log", dir)
       Dir.chdir(dir) do
         %x(cat #{file}.log | XCPRETTY_JSON_FILE_OUTPUT=result.json bundle exec xcpretty -f `xcpretty-json-formatter`)
-        puts File.read('result.json')
         output = JSON.parse(File.read('result.json'))
       end
     end
