@@ -1,0 +1,38 @@
+{
+  "warnings": [
+
+  ],
+  "ld_warnings": [
+
+  ],
+  "compile_warnings": [
+
+  ],
+  "errors": [
+
+  ],
+  "compile_errors": [
+
+  ],
+  "file_missing_errors": [
+
+  ],
+  "undefined_symbols_errors": [
+
+  ],
+  "duplicate_symbols_errors": [
+
+  ],
+  "tests_failures": {
+    "RACTupleSpec": [
+      {
+        "file_path": "/Users/musalj/code/OSS/ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoaTests/RACTupleSpec.m:28",
+        "reason": "expected: foobar, got: seoitns",
+        "test_case": "RACTupleUnpack_should_unpack_multiple_values"
+      }
+    ]
+  },
+  "tests_summary_messages": [
+    "Executed 922 tests, with 1 failure (0 unexpected) in 6.436 (6.743) seconds\n"
+  ]
+}
