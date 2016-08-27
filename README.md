@@ -1,5 +1,9 @@
 # XCPretty JSON Formatter
 
+[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](LICENSE.txt)
+[![Gem](https://img.shields.io/gem/v/xcpretty-json-formatter.svg?style=flat)](http://rubygems.org/gems/xcpretty-json-formatter)
+[![Build Status](https://travis-ci.org/marcelofabri/xcpretty-json-formatter.svg?branch=master)](https://travis-ci.org/marcelofabri/xcpretty-json-formatter)
+
 Custom formatter for [xcpretty](https://github.com/supermarin/xcpretty) that saves on a JSON file all the errors, warnings and test failures, so you can process them easily later.
 
 ## Installation
@@ -25,6 +29,10 @@ By default, `xcpretty-json-formatter` writes the result in `build/reports/errors
 
 xcodebuild | XCPRETTY_JSON_FILE_OUTPUT=result.json xcpretty -f `xcpretty-json-formatter`
 ```
+
+## Output format
+
+You can check some example JSONs in the [fixtures folder](spec/fixtures).
 
 ## Thanks
 
