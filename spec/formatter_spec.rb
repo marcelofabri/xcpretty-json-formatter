@@ -1,6 +1,7 @@
 require 'spec_helper'
 require 'fileutils'
 require 'json'
+require 'tmpdir'
 
 describe 'JSONFormatter' do
   it 'formats raw_kiwi_compilation_fail' do
