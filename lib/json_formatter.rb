@@ -89,7 +89,7 @@ class JSONFormatter < XCPretty::Simple
   end
 
   def format_test_summary(message, failures_per_suite)
-    @failures = failures_per_suite
+    @failures.merge!(failures_per_suite)
     @tests_summary_messages << message
     write_to_file_if_needed
     super
