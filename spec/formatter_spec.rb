@@ -20,6 +20,10 @@ describe 'JSONFormatter' do
     verify_file('xcodebuild')
   end
 
+  it 'formats xcodebuild_multitest' do
+    verify_file('xcodebuild_multitest')
+  end
+
   def verify_file(file)
     output = nil
     Dir.mktmpdir do |dir|

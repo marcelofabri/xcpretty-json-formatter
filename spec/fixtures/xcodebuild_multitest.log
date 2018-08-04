@@ -1,0 +1,119 @@
+=== CLEAN TARGET BlackJack iOS OF PROJECT BlackJack WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== CLEAN TARGET BlackJack iOS Tests OF PROJECT BlackJack WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== CLEAN TARGET BlackJack iOS Failing Tests OF PROJECT BlackJack WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+** CLEAN SUCCEEDED **
+
+=== BUILD TARGET BlackJack iOS OF PROJECT BlackJack WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET BlackJack iOS Failing Tests OF PROJECT BlackJack WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET BlackJack iOS Tests OF PROJECT BlackJack WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+** BUILD SUCCEEDED **
+
+=== BUILD TARGET BlackJack iOS OF PROJECT BlackJack WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET BlackJack iOS Tests OF PROJECT BlackJack WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET BlackJack iOS Failing Tests OF PROJECT BlackJack WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Test Suite 'All tests' started at 2018-07-26 14:48:08.323
+Test Suite 'BlackJack iOS Failing Tests.xctest' started at 2018-07-26 14:48:08.325
+Test Suite 'FailingCardTestCase' started at 2018-07-26 14:48:08.327
+Test Case '-[BlackJack_iOS_Failing_Tests.FailingCardTestCase testAllRankCases]' started.
+/BlackJack/Framework/Tests/Failing/FailingCardTests.swift:19: error: -[BlackJack_iOS_Failing_Tests.FailingCardTestCase testAllRankCases] : XCTAssertEqual failed: ("13") is not equal to ("12") -
+Test Case '-[BlackJack_iOS_Failing_Tests.FailingCardTestCase testAllRankCases]' failed (0.026 seconds).
+Test Case '-[BlackJack_iOS_Failing_Tests.FailingCardTestCase testAllSuitCases]' started.
+/BlackJack/Framework/Tests/Failing/FailingCardTests.swift:27: error: -[BlackJack_iOS_Failing_Tests.FailingCardTestCase testAllSuitCases] : XCTAssertEqual failed: ("4") is not equal to ("3") -
+Test Case '-[BlackJack_iOS_Failing_Tests.FailingCardTestCase testAllSuitCases]' failed (0.011 seconds).
+Test Case '-[BlackJack_iOS_Failing_Tests.FailingCardTestCase testInitialization]' started.
+Test Case '-[BlackJack_iOS_Failing_Tests.FailingCardTestCase testInitialization]' passed (0.002 seconds).
+Test Suite 'FailingCardTestCase' failed at 2018-07-26 14:48:08.377.
+	 Executed 3 tests, with 2 failures (0 unexpected) in 0.039 (0.051) seconds
+Test Suite 'BlackJack iOS Failing Tests.xctest' failed at 2018-07-26 14:48:08.380.
+	 Executed 3 tests, with 2 failures (0 unexpected) in 0.039 (0.055) seconds
+Test Suite 'All tests' failed at 2018-07-26 14:48:08.382.
+	 Executed 3 tests, with 2 failures (0 unexpected) in 0.039 (0.059) seconds
+Test Suite 'All tests' started at 2018-07-26 14:48:09.220
+Test Suite 'BlackJack Tests.xctest' started at 2018-07-26 14:48:09.221
+Test Suite 'CardTestCase' started at 2018-07-26 14:48:09.222
+Test Case '-[BlackJack_Tests.CardTestCase testAllRankCases]' started.
+Test Case '-[BlackJack_Tests.CardTestCase testAllRankCases]' passed (0.002 seconds).
+Test Case '-[BlackJack_Tests.CardTestCase testAllSuitCases]' started.
+Test Case '-[BlackJack_Tests.CardTestCase testAllSuitCases]' passed (0.001 seconds).
+Test Case '-[BlackJack_Tests.CardTestCase testInitialization]' started.
+Test Case '-[BlackJack_Tests.CardTestCase testInitialization]' passed (0.000 seconds).
+Test Suite 'CardTestCase' passed at 2018-07-26 14:48:09.226.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.003 (0.005) seconds
+Test Suite 'DealerTestCase' started at 2018-07-26 14:48:09.227
+Test Case '-[BlackJack_Tests.DealerTestCase testDealCards]' started.
+Deal Cards
+Test Case '-[BlackJack_Tests.DealerTestCase testDealCards]' passed (0.002 seconds).
+Test Case '-[BlackJack_Tests.DealerTestCase testInitialization]' started.
+Test Case '-[BlackJack_Tests.DealerTestCase testInitialization]' passed (0.001 seconds).
+Test Suite 'DealerTestCase' passed at 2018-07-26 14:48:09.230.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.003 (0.004) seconds
+Test Suite 'DeckTestCase' started at 2018-07-26 14:48:09.231
+Test Case '-[BlackJack_Tests.DeckTestCase testInitialization]' started.
+Test Case '-[BlackJack_Tests.DeckTestCase testInitialization]' passed (0.001 seconds).
+Test Case '-[BlackJack_Tests.DeckTestCase testShuffle]' started.
+Test Case '-[BlackJack_Tests.DeckTestCase testShuffle]' passed (0.000 seconds).
+Test Case '-[BlackJack_Tests.DeckTestCase testStandardDeck]' started.
+/BlackJack/Framework/Tests/DeckTests.swift:49: error: -[BlackJack_Tests.DeckTestCase testStandardDeck] : XCTAssertEqual failed: ("52") is not equal to ("51") -
+Test Case '-[BlackJack_Tests.DeckTestCase testStandardDeck]' failed (0.004 seconds).
+Test Case '-[BlackJack_Tests.DeckTestCase testTakeCard]' started.
+Test Case '-[BlackJack_Tests.DeckTestCase testTakeCard]' passed (0.001 seconds).
+Test Suite 'DeckTestCase' failed at 2018-07-26 14:48:09.238.
+	 Executed 4 tests, with 1 failure (0 unexpected) in 0.006 (0.008) seconds
+Test Suite 'GameTestCase' started at 2018-07-26 14:48:09.239
+Test Case '-[BlackJack_Tests.GameTestCase testInitialization]' started.
+/BlackJack/Framework/Tests/GameTests.swift:23: error: -[BlackJack_Tests.GameTestCase testInitialization] : XCTAssertEqual failed: ("Dealer") is not equal to ("Nooop") -
+Test Case '-[BlackJack_Tests.GameTestCase testInitialization]' failed (0.002 seconds).
+Test Suite 'GameTestCase' failed at 2018-07-26 14:48:09.242.
+	 Executed 1 test, with 1 failure (0 unexpected) in 0.002 (0.002) seconds
+Test Suite 'HandTestCase' started at 2018-07-26 14:48:09.242
+Test Case '-[BlackJack_Tests.HandTestCase testAddCard]' started.
+Test Case '-[BlackJack_Tests.HandTestCase testAddCard]' passed (0.001 seconds).
+Test Case '-[BlackJack_Tests.HandTestCase testAddCards]' started.
+Test Case '-[BlackJack_Tests.HandTestCase testAddCards]' passed (0.000 seconds).
+Test Case '-[BlackJack_Tests.HandTestCase testInitialization]' started.
+Test Case '-[BlackJack_Tests.HandTestCase testInitialization]' passed (0.000 seconds).
+Test Suite 'HandTestCase' passed at 2018-07-26 14:48:09.245.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.001 (0.003) seconds
+Test Suite 'PlayerTestCase' started at 2018-07-26 14:48:09.245
+Test Case '-[BlackJack_Tests.PlayerTestCase testInitialization]' started.
+Test Case '-[BlackJack_Tests.PlayerTestCase testInitialization]' passed (0.000 seconds).
+Test Suite 'PlayerTestCase' passed at 2018-07-26 14:48:09.246.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+Test Suite 'BlackJack Tests.xctest' failed at 2018-07-26 14:48:09.246.
+	 Executed 14 tests, with 2 failures (0 unexpected) in 0.015 (0.025) seconds
+Test Suite 'All tests' failed at 2018-07-26 14:48:09.247.
+	 Executed 14 tests, with 2 failures (0 unexpected) in 0.015 (0.026) seconds
+Generating coverage data...
+Failing tests:
+	FailingCardTestCase.testAllRankCases()
+	FailingCardTestCase.testAllSuitCases()
+	DeckTestCase.testStandardDeck()
+	GameTestCase.testInitialization()
+** TEST FAILED **
