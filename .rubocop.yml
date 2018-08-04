@@ -26,6 +26,10 @@ Style/ClassAndModuleChildren:
 Metrics/AbcSize:
   Max: 60
 
+Metrics/BlockLength:
+  Exclude:
+    - '**/spec/**/*'
+
 # The %w might be confusing for new users
 Style/WordArray:
   MinSize: 19
