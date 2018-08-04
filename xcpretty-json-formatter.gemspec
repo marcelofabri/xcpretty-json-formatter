@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = 'xcpretty-json-formatter'
-  spec.version       = '0.1.0'
+  spec.version       = '0.1.1'
   spec.authors       = ['Marcelo Fabri']
   spec.email         = ['me@marcelofabri.com']
 
